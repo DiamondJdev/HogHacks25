@@ -397,9 +397,6 @@ router.post("/sendEmail", async (ctx) => {
 
 /* -----------------------------------------------------------------------------------------------
  * Everything Past this is utilities for the frontend and server
- *
- * DO NOT TOUCH!!!
- * This code is meticulously crafted to work with the frontend securely
  */
 // Run another process to listen for requests and print out the requested URL
 app.use(async (ctx, next) => {
